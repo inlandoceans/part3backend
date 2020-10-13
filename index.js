@@ -4,6 +4,7 @@ const cors = require("cors");
 
 app.use(cors());
 app.use(express.json());
+app.use(express.static("build"));
 
 app.get("/api/persons", (req, res) => {
   res.json(persons);
