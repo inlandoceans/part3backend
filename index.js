@@ -84,11 +84,6 @@ let persons = [
     id: 4,
   },
   {
-    name: "check",
-    number: "1234",
-    id: 5,
-  },
-  {
     name: "David",
     number: "12454212399",
     id: 6,
